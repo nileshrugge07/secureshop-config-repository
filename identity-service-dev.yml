@@ -1,0 +1,1 @@
+# secureshop-config-repository

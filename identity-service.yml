@@ -6,7 +6,7 @@ spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/identity_db
     username: postgres
-    password: postgres
+    password: Nilesh@07
 
     hikari:
       minimum-idle: 2

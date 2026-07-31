@@ -1,0 +1,16 @@
+server:
+  port: 8082
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/catalog_db
+    username: postgres
+    password: admin1234
+
+    hikari:
+      minimum-idle: 2
+      maximum-pool-size: 10
+
+app:
+  service-name: Catalog Service
+  message: Catalog configuration loaded from GitHub

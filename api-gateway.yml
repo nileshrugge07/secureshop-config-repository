@@ -56,10 +56,4 @@ management:
 
   endpoint:
     health:
-      show-details: alwayseureka:
-  instance:
-    prefer-ip-address: true
-    instance-id: ${spring.application.name}:${server.port}:${random.valuew
-
-
-
+      show-details: always

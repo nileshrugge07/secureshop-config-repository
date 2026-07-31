@@ -1,6 +1,6 @@
 # secureshop-config-repository
 server:
-  port: 8081
+  port: 0
 
 spring:
   datasource:
